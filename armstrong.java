@@ -21,7 +21,6 @@ public class armstrong {
             sum = sum + rem*rem*rem;
         }
         return sum == original;
-        // I am going to make changes here to make test of git
-        // This is line 2 of making changes
+
     }
 }
