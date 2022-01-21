@@ -1,11 +1,17 @@
+import java.util.Scanner;
+
 public class arrays {
     public static void main(String[] args) {
-        // store 5 roll numbers
-        int[] rnos = new int[5];
-        // or
-        int[] rnos2 = {23, 12, 51, 46, 45};
-        String[] arr = new String[4];
-        System.out.println(arr[2]);
+        Scanner in =  new Scanner(System.in);
+        int[] demo = new int[5];
+
+        for (int i = 0; i < demo.length; i++){
+            demo[i] = in.nextInt();
+        }
+        for (int i = 0; i < demo.length; i++){
+            System.out.println(demo[i]);
+        }
+
 
     }
 }
